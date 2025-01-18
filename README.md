@@ -1,4 +1,6 @@
-WIP - Intended to give the user a directory(or directories) that they can check for powershell, batch, and bash scripts. It then allows the user to run the scripts using a "script runner".
+#WIP
+
+Intended to give the user a directory(or directories) that they can check for powershell, batch, and bash scripts. It then allows the user to run the scripts using a "script runner".
 
 Todo:
 [X]  - Script Running Logic
