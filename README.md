@@ -14,9 +14,7 @@ Todo:
   [X]  - Main loop prompt
   
   []  - Submenus
-  
     []  - List available scripts
-    
     []  - List working directories
     
 []  - Config files
