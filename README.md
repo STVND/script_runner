@@ -3,27 +3,24 @@
 Intended to give the user a directory(or directories) that they can check for powershell, batch, and bash scripts. It then allows the user to run the scripts using a "script runner".
 
 ## Todo:
-[X]  - Script Running Logic
+- [X]  - Script Running Logic
 
-  [X]  - Pwsh logic
+ - [X]  - Pwsh logic
 
-  [X]  - Batch logic
-  
-  [X]  - Bash logic (Currently only runs Bash in a way that assumes you are using Linux - possibly add OS detection+logic but needs investigation on invoking Git Bash or WSL)
-  
-[]  - Menus
+ - [X]  - Batch logic
 
-  [X]  - Main loop prompt
+ - [X]  - Bash logic (Currently only runs Bash in a way that assumes you are using Linux - possibly add OS detection+logic but needs investigation on invoking Git Bash or WSL)
   
-  []  - Submenus<br>
-    []  - List available scripts<br>
-    []  - List working directories
+- [X]  - Main loop prompt
+- [ ] - Submenus<br>
+- [ ] - List available scripts<br>
+- [ ] - List working directories
     
-[]  - Config files
+- [ ]  - Config files
 
-  [X]  - Creates initial config
+-  [X]  - Creates initial config
   
-  []  - Creates initial script hosting directory
+-  [ ]  - Creates initial script hosting directory
   
-  []  - Allows user to list and delist directories
+-  [ ]  - Allows user to list and delist directories
   
