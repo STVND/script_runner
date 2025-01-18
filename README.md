@@ -1,8 +1,8 @@
-#WIP
+# WIP
 
 Intended to give the user a directory(or directories) that they can check for powershell, batch, and bash scripts. It then allows the user to run the scripts using a "script runner".
 
-Todo:
+## Todo:
 [X]  - Script Running Logic
 
   [X]  - Pwsh logic
@@ -15,8 +15,8 @@ Todo:
 
   [X]  - Main loop prompt
   
-  []  - Submenus
-    []  - List available scripts
+  []  - Submenus<br>
+    []  - List available scripts<br>
     []  - List working directories
     
 []  - Config files
