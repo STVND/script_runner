@@ -46,7 +46,13 @@ func create(configPath string) {
 		if err != nil {
 			log.Print("Unable to write to directories file: ", err, "\n")
 			log.Print("File location: ", configPath, "\n")
-			log.Fatalf("Exiting runner")
+			log.Fatal("Exiting runner")
+		}
+
+		err = os.MkdirAll(scriptDir, 0755)
+		if err != nil {
+			log.Print("unable to create default script directory: ", err, "\n")
+			log.Fatal("Exiting runner")
 		}
 	}
 }

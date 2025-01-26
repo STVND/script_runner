@@ -4,11 +4,15 @@ import (
 	"bufio"
 	"log"
 	configure "main/main.go/configuration"
+	eventhandler "main/main.go/eventHandler"
 	"os"
 	"strconv"
 )
 
 func main() {
+	h := eventhandler.NewHandler()
+	_ = h
+
 	configure.Setup()
 
 	scanner := bufio.NewScanner(os.Stdin)
